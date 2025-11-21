@@ -200,6 +200,7 @@ section{
     align-items: center;
     justify-content: center;
     gap: 10rem;
+    color: antiquewhite;
     background: rgb(19,1,83);
 }
 
@@ -215,6 +216,7 @@ section{
 
 .about-content p{
     font-size: 1.7rem;
+    line-height: 1.6;
     color: antiquewhite;
 }
 
