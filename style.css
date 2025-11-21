@@ -223,27 +223,36 @@ section{
 /* =========================================================
    SKILLS
 ========================================================= */
-.skills-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2.5rem;
+.skills .heading {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
 }
 
-.skills-box{
-    background: var(--main-color);
-    min-height: 450px;   /* FIX: equal box height */
-    border-radius: 3rem;
-    padding: 3rem;
-    transition: 0.4s;
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.skills-box {
+    background: #0000ff; /* your blue box */
+    padding: 25px;
+    border-radius: 20px;
     color: white;
 }
 
-.skills-box:hover{
-    background: var(--second-bg-color);
-    color: var(--main-color);
-    border: 3px solid var(--main-color);
-    transform: scale(1.03);
+.skills-box h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
 }
+
+.skills-box p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
 
 /* =========================================================
    PROJECTS
